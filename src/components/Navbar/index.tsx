@@ -15,28 +15,28 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="flex sm:hidden flex-row gap-4">
-
+        
       </div>
-      <div className="sm:flex flex-row gap-8 hidden">
-        <Link href="/" className="self-center text-black font-semibold ">
+      <div className="hidden sm:flex flex-row gap-8 text-xl">
+        <Link href="/" className="self-center text-black font-semibold hover:text-brandBlue duration-300 transition-colors ease-in-out">
           Home
         </Link>
-        <Link href="/" className="self-center text-black font-semibold ">
+        <Link href="/ourservices" className="self-center text-black font-semibold hover:text-brandBlue duration-300 transition-colors ease-in-out">
           Our Services
         </Link>
-        <Link href="/" className="self-center text-black font-semibold ">
+        <Link href="/howitworks" className="self-center text-black font-semibold hover:text-brandBlue duration-300 transition-colors ease-in-out">
           How it works
         </Link>
-        <Link href="/" className="self-center text-black font-semibold ">
+        <Link href="/jobs" className="self-center text-black font-semibold hover:text-brandBlue duration-300 transition-colors ease-in-out">
           Jobs
         </Link>
-        <Link href="/" className="self-center text-black font-semibold ">
+        <Link href="/datasecurity" className="self-center text-black font-semibold hover:text-brandBlue duration-300 transition-colors ease-in-out">
           Data Security
         </Link>
-        <Link href="/" className="self-center text-black font-semibold ">
+        <Link href="/aboutus" className="self-center text-black font-semibold hover:text-brandBlue duration-300 transition-colors ease-in-out">
           About Us
         </Link>
-        <Link href="/" className="self-center text-black font-semibold ">
+        <Link href="/resources" className="self-center text-black font-semibold hover:text-brandBlue duration-300 transition-colors ease-in-out">
           Resources
         </Link>
       </div>
