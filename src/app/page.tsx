@@ -1,10 +1,19 @@
+import Footer from "@/components/Footer";
+import HeroSection from "@/components/HeroSection";
+import MyStaffButtons from "@/components/MyStaffButtons";
 import Navbar from "@/components/Navbar";
-import Image from "next/image";
+import Testimonials from "@/components/Testimonials";
+import WhyChooseBespoke from "@/components/WhyChooseBespoke";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-dot-black/[0.2]">
+    <main className="flex flex-col justify-between sm:overflow-x-auto overflow-x-hidden overflow-y-clip">
       <Navbar />
+      <HeroSection />
+      <MyStaffButtons />
+      <WhyChooseBespoke />
+      <Testimonials />
+      <Footer />
     </main>
   );
 }
