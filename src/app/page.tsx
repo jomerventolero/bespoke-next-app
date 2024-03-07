@@ -4,10 +4,12 @@ import MyStaffButtons from "@/components/MyStaffButtons";
 import Navbar from "@/components/Navbar";
 import Testimonials from "@/components/Testimonials";
 import WhyChooseBespoke from "@/components/WhyChooseBespoke";
+import Loader from "@/components/Loader";
 
 export default function Home() {
   return (
     <main className="flex flex-col justify-between sm:overflow-x-auto overflow-x-hidden overflow-y-clip">
+      <Loader />
       <Navbar />
       <HeroSection />
       <MyStaffButtons />
