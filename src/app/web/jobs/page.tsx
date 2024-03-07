@@ -1,5 +1,6 @@
 "use client"
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 
 const Jobs = () => {
   return (
@@ -12,7 +13,7 @@ const Jobs = () => {
                 delay: 0.5
             }}
         >
-          <button onClick={() => {window.location.href = 'https://odoo.mybespokestaff.com/jobs'}} className="font-poppins text-center font-semibold text-3xl text-brandBlue p-5 rounded-full shadow-2xl bg-white hover:bg-brandBlue hover:text-white transition-colors ease-in-out duration-300">Go to Jobs Page 🏢</button>
+          <button onClick={() => {<Link href='https://odoo.mybespokestaff.com/jobs'/>}} className="font-poppins text-center font-semibold text-3xl text-brandBlue p-5 rounded-full shadow-2xl bg-white hover:bg-brandBlue hover:text-white transition-colors ease-in-out duration-300">Go to Jobs Page 🏢</button>
         </motion.div>
     </main>
   )

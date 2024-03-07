@@ -3,12 +3,12 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { useState, useEffect } from 'react'
-import { usePathname } from "next/navigation";
+import { usePathname } from "next/navigation"
 import { links } from '@/constants/navlinks'
 import { motion } from 'framer-motion'
-import { IoIosCloseCircleOutline, IoMdMenu } from "react-icons/io";
-import { TypewriterEffect } from "../ui/typewriter-effect";
-import { Button } from "../ui/moving-border";
+import { IoIosCloseCircleOutline, IoMdMenu } from "react-icons/io"
+import { TypewriterEffect } from "../ui/typewriter-effect"
+import { Button } from "../ui/moving-border"
 
 
 const Navbar = () => {

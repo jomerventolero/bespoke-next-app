@@ -1,3 +1,4 @@
+"use client";
 export const useParallax = () => {
     const handleScroll = () => {
       const scrollValue = window.scrollY;
