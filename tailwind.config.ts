@@ -31,6 +31,9 @@ const config: Config = {
       animation: {
         "meteor-effect": "meteor 5s linear infinite",
       },
+      font: {
+        "font-poppins": ["Poppins", "sans-serif"],
+      },
       keyframes: {
         meteor: {
           "0%": { transform: "rotate(215deg) translateX(0)", opacity: "1" },

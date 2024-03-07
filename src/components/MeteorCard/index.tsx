@@ -25,7 +25,7 @@ const MeteorCard: React.FC<Props> = ({ title, image, url, delayP, durationP}) =>
         }}
         className="w-full relative max-w-xs flex flex-col gap-4">
         <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.60] bg-red-500 rounded-full blur-3xl" />
-        <div className="relative shadow-xl bg-gray-900 border border-gray-800  px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-row justify-end items-start">
+        <div className="relative shadow-xl bg-gray-900 border border-gray-800  px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-row justify-end items-start  hover:scale-110 duration-300 transition-transform ease-in-out">
             <h1 className="font-bold text-xl text-white mb-4 relative z-50">
                 {title}
             </h1>

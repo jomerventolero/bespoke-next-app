@@ -29,15 +29,15 @@ const HeroSection = () => {
       <div className="parallax px-4 z-40" data-speed="0.4">
         <Button
           borderRadius="1.75rem"
-          className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800 font-bold text-lg"
+          className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800 font-bold text-[15px] hover:text-brandBlue duration-300 transition-colors ease-in-out"
         >
-          <Link href="/contactus" className="flex flex-row gap-2 hover:text-brandBlue duration-300 transition-colors ease-in-out">
+          <Link href="/contactus" className="flex flex-row gap-2">
             <h1 className="self-center">Get Started</h1>
             <IoMdLogIn className="self-center" size="2rem"/>
           </Link>
         </Button>
       </div>
-      <Image className="absolute sm:right-20 top-20 sm:top-44 w-screen sm:w-[55%] sm:h-[75%] z-10 parallax sm:rounded-xl" src="/assets/herobg2.png" width={1200} height={800} alt="office" data-speed="0.3"/>
+      <Image className="absolute sm:right-20 top-[70px] sm:top-32 w-screen sm:w-[55%] sm:h-[75%] z-10 parallax sm:rounded-xl" src="/assets/herobg2.png" width={1200} height={800} alt="office" data-speed="0.3"/>
     </div>
   )
 }
