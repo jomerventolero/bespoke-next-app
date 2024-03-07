@@ -47,7 +47,7 @@ const AboutUs = () => {
                 }}
                 className="flex flex-col justify-center text-center">
                 <h1 className="font-poppins font-semibold text-brandBlue text-[30px] py-2">BESPOKE MISSION</h1>
-                <span className="px-[20%]">We work towards operating in a manner where our client&#39;s are satisfied that their business processes are met with the highest standard of service and effort by the top class talents that we hire.</span>
+                <span className="px-[20%]">We work towards operating in a manner where our client's are satisfied that their business processes are met with the highest standard of service and effort by the top class talents that we hire.</span>
             </motion.div>
         </div>
         <div className="flex flex-row px-[10%] py-4">
