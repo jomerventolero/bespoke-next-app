@@ -1,7 +1,7 @@
 "use client";
 export const useParallax = () => {
     const handleScroll = () => {
-      const scrollValue = window.scrollY;
+      const scrollValue = typeof window !== 'undefined' ? window.pageYOffset : 0;
       const parallaxElements = document.querySelectorAll<HTMLElement>('.parallax');
       
       parallaxElements.forEach(element => {
@@ -9,11 +9,14 @@ export const useParallax = () => {
         element.style.transform = `translateY(${scrollValue * speed}px)`;
       });
     };
-
-    window.addEventListener('scroll', handleScroll);
+    if (typeof window !== 'undefined') {
+      window.addEventListener('scroll', handleScroll);
+    }
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      if (typeof window !== 'undefined') {
+        window.removeEventListener('scroll', handleScroll);
+      }
     };
 }
 

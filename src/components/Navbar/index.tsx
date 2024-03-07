@@ -11,36 +11,44 @@ import { TypewriterEffect } from "../ui/typewriter-effect"
 import { Button } from "../ui/moving-border"
 
 
+
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(true);
   const [isHovered, setIsHovered] = useState(false);
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [toggle, setToggle] = useState(false)
   const [showTypewriter, setShowTypewriter] = useState(false);
-
+  
   const pathname = usePathname();
 
   useEffect(() => {
     const handleScroll = () => {
-      const currentScrollPos = window.pageYOffset;
+
+      const currentScrollPos = typeof window !== 'undefined' ? window.pageYOffset : 0;
       const visible = prevScrollPos > currentScrollPos || currentScrollPos < 10;
 
       setIsOpen(visible || isHovered);
       setPrevScrollPos(currentScrollPos);
     };
 
-    window.addEventListener('scroll', handleScroll);
-    window.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape') {
-        setToggle(false)
-      }
-    })
+    if (typeof window !== 'undefined') {
+      window.addEventListener('scroll', handleScroll);
+      window.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+          setToggle(false)
+        }
+      })
+    }
+    
     const timer = setTimeout(() => {
       setShowTypewriter(true);
     }, 1000); 
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      if (typeof window !== 'undefined') {
+        window.removeEventListener('scroll', handleScroll);
+      }
       clearTimeout(timer);
     };
   }, [isHovered, prevScrollPos, toggle, showTypewriter]);
