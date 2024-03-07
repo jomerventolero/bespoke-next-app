@@ -3,16 +3,13 @@ import Image from "next/image"
 import Link from "next/link";
 
 import { motion } from "framer-motion"
-import { useEffect } from "react";
 import { useParallax } from "@/utils/parralax";
 import { Button } from "../ui/moving-border";
 import { IoMdLogIn } from "react-icons/io";
 
 const HeroSection = () => {
 
-  useEffect(() => {
-    useParallax();
-  }, []);
+  useParallax();
 
   return (
     <div className="flex flex-col sm:px-20 sm:h-screen h-[40vh] bg-dot-black/[0.2]">
