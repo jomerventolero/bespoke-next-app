@@ -13,7 +13,7 @@ const WhyDoFreight = () => {
             <h1 className={`${styles.textResTitle} font-semibold font-poppins text-brandBlue text-center`}>WHY DO FREIGHT FORWARDING COMPANIES USE</h1>
             <h1 className={`${styles.textResTitle} font-semibold font-poppins text-brandBlack text-center pb-10`}>BPO SERVICES</h1>
             <div className="flex flex-row  justify-center">
-                <p className={`${styles.textResHeadings} text-justify pr-8 leading-relaxed`}>
+                <p className={`text-lg text-justify pr-8 leading-relaxed`}>
                     Freight forwarding companies specialize in managing and executing the flow of goods from one destination to another and act as an intermediary between shipper and transporter. 
                     This leads many to consider how & why freight forwarding companies can benefit using BPO services. As freight forwarding companies seek to optimize every step of their operations, BPO companies can increase efficiency and accuracy by taking over certain functions.
                     Business process outsourcing is beneficial for almost every industry, and the freight forwarding industry is no different. When it comes to how & why freight forwarding companies use BPO services, the answers are relatively simple
@@ -24,13 +24,13 @@ const WhyDoFreight = () => {
             <div className="flex flex-row justify-center pt-8">
                 <Image src="/assets/aboutus/8.png" alt="photo2" className="" width={500} height={500}/>
                 <div className="flex flex-col justify-center pl-8">
-                    <p className={`${styles.textResHeadings} text-justify pr-8 leading-relaxed`}>
+                    <p className={`text-lg text-justify pr-8 leading-relaxed`}>
                         With a BPO company, you can pass off certain tasks and projects entirely to experts so that you do not have to worry about their completion. Because BPO companies enlist only the most experienced industry professionals, your processes will be executed to perfection.
                     </p>
-                    <p className={`${styles.textResHeadings} pt-4 font-semibold text-justify pr-8 leading-relaxed`}>
+                    <p className={`text-lg pt-4 font-semibold text-justify pr-8 leading-relaxed`}>
                         Bespoke Enterprise Solutions
                     </p>
-                    <p className={`${styles.textResHeadings} text-justify pr-8 leading-relaxed`}>
+                    <p className={`text-lg text-justify pr-8 leading-relaxed`}>
                         is an industry leading BPO company that has been helped freight forwarding companies excel for over ten years. Our extensive experience in the freight forwarding industry has taught us how & why freight forwarding companies use BPO companies.
 
                         At Bespoke, we know firsthand how we can provide several advantages and benefits. Below, we will explain more in depth how and why companies use BPO services to succeed.
@@ -48,7 +48,7 @@ const WhyDoFreight = () => {
             {/*  */}
             <div className="flex flex-col pb-8 justify-center">
                 <Image src="/assets/aboutus/7.png" alt="photo1" width={500} height={500}/>
-                <p className={`${styles.textResHeadings} text-justify leading-relaxed`}>
+                <p className={`text-lg text-justify leading-relaxed`}>
                     Freight forwarding companies specialize in managing and executing the flow of goods from one destination to another and act as an intermediary between shipper and transporter. 
                     This leads many to consider how & why freight forwarding companies can benefit using BPO services. As freight forwarding companies seek to optimize every step of their operations, BPO companies can increase efficiency and accuracy by taking over certain functions.
                     Business process outsourcing is beneficial for almost every industry, and the freight forwarding industry is no different. When it comes to how & why freight forwarding companies use BPO services, the answers are relatively simple
@@ -59,13 +59,13 @@ const WhyDoFreight = () => {
             <div className="flex flex-col justify-center pt-8">
                 <Image  src="/assets/aboutus/8.png" alt="photo2" className="" width={500} height={500}/>
                 <div className="flex flex-col justify-center">
-                    <p className={`${styles.textResHeadings} text-justify pr-8 leading-relaxed`}>
+                    <p className={`text-lg text-justify pr-8 leading-relaxed`}>
                         With a BPO company, you can pass off certain tasks and projects entirely to experts so that you do not have to worry about their completion. Because BPO companies enlist only the most experienced industry professionals, your processes will be executed to perfection.
                     </p>
-                    <p className={`${styles.textResHeadings} pt-4 font-semibold text-justify pr-8 leading-relaxed`}>
+                    <p className={`text-lg pt-4 font-semibold text-justify pr-8 leading-relaxed`}>
                         Bespoke Enterprise Solutions
                     </p>
-                    <p className={`${styles.textResHeadings} text-justify pr-8 leading-relaxed`}>
+                    <p className={`text-lg text-justify pr-8 leading-relaxed`}>
                         is an industry leading BPO company that has been helped freight forwarding companies excel for over ten years. Our extensive experience in the freight forwarding industry has taught us how & why freight forwarding companies use BPO companies.
 
                         At Bespoke, we know firsthand how we can provide several advantages and benefits. Below, we will explain more in depth how and why companies use BPO services to succeed.
@@ -76,7 +76,7 @@ const WhyDoFreight = () => {
 
         <div className='px-[10%] pt-[2%]'>
             <h1 className={`${styles.textResTitle} font-semibold `}>Why Freight Forwarding Companies Use BPO Services</h1>
-            <p className={`${styles.textResHeadings} pt-4 leading-relaxed`}>
+            <p className={`text-lg pt-4 leading-relaxed`}>
                 Overall, the reason why logistics companies use BPO services is primarily about efficiency. Business process outsourcing is a proven method for increasing efficiency in all business functions, operations, and processes.
 
                 There is a number of processes in the operations of a freight forwarding company that needs to be efficiently executed. They include liaising with the various air or sea carriers, Customs and the various authorities responsible for the importation or exportation of goods, the owners of the goods and the overseas freight forwarding counterparts that they deal on a very regular basis. These Freight forwarding companies handle and deal with incredible amounts of information to effectively manage the transportation of goods which is a crucial part of the supply chain process. BPO companies can help freight forwarding companies by taking over various data-related processes, organizational matters, and back office services.
