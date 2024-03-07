@@ -94,9 +94,9 @@ const Navbar = () => {
             className="w-[250px] flex flex-col justify-start absolute top-10 right-4"
           >
             <IoIosCloseCircleOutline className={`self-end text-slate-500 ${toggle ? 'block' : 'hidden'} mr-8 cursor-pointer z-50`} size="3rem" onClick={() => setToggle(!toggle)}/>
-            {links.map((link) => {
+            {links.map((link, index) => {
               return (
-                <Link href={link.href} className={`${pathname === link.href ? 'text-brandBlue' : 'text-slate-400'} self-end py-5 font-semibold hover:scale-125 hover:text-brandBlue duration-300 transition-all ease-in-out sm:pr-10`} target={`${link.external ? '_blank' : ''}`} onClick={() => setToggle(!toggle)}>{link.name}</Link>
+                <Link key={index} href={link.href} className={`${pathname === link.href ? 'text-brandBlue' : 'text-slate-400'} self-end py-5 font-semibold hover:scale-125 hover:text-brandBlue duration-300 transition-all ease-in-out sm:pr-10`} target={`${link.external ? '_blank' : ''}`} onClick={() => setToggle(!toggle)}>{link.name}</Link>
               )
             }
             )}

@@ -1,7 +1,7 @@
 "use client";
 import { motion } from 'framer-motion'
 import { TextGenerateEffect } from '../ui/text-generate-effect';
-
+import Image from 'next/image';
 
 
 const WhyChooseBespoke = () => {
@@ -25,8 +25,8 @@ const WhyChooseBespoke = () => {
           }}
           viewport={{ once: true }}
         >
-          <img loading="lazy" src="/assets/middlemen.jpg" alt="middlemen" draggable="false" className="hidden md:block rounded-xl shadow-2xl drop-shadow-2xl"/>
-          <img loading="lazy" src="/assets/middlemen.jpg" alt="middlemen" draggable="false" className="block md:hidden rounded-xl shadow-2xl drop-shadow-2xl"/>
+          <Image loading="lazy" src="/assets/middlemen.jpg" alt="middlemen" draggable="false" className="hidden md:block rounded-xl shadow-2xl drop-shadow-2xl" width={1920} height={1080}/>
+          <Image loading="lazy" src="/assets/middlemen.jpg" alt="middlemen" draggable="false" className="block md:hidden rounded-xl shadow-2xl drop-shadow-2xl" width={1920} height={1080}/>
         </motion.div>
         <motion.div
           className="flex flex-col justify-center"
@@ -56,7 +56,7 @@ const WhyChooseBespoke = () => {
           }}
           viewport={{ once: true }}
         >
-          <img loading="lazy" src="/assets/speakingwithus.jpg" alt="image" draggable="false" className="block md:hidden rounded-xl shadow-2xl drop-shadow-2xl"/>
+          <Image loading="lazy" src="/assets/speakingwithus.jpg" alt="image" draggable="false" className="block md:hidden rounded-xl shadow-2xl drop-shadow-2xl" width={1920} height={1080}/>
           <span
             className={`font-poppins font-medium md:text-2xl pt-4 md:pt-0 text-center text-brandBlack`}
           >
@@ -73,7 +73,7 @@ const WhyChooseBespoke = () => {
           }}
           viewport={{ once: true }}
         >
-          <img loading="lazy" src="/assets/speakingwithus.jpg" alt="image" draggable="false" className="hidden md:block rounded-xl shadow-2xl drop-shadow-2xl"/>
+          <Image loading="lazy" src="/assets/speakingwithus.jpg" alt="image" draggable="false" className="hidden md:block rounded-xl shadow-2xl drop-shadow-2xl" width={1920} height={1080}/>
           
         </motion.div>
         <motion.div
@@ -86,8 +86,8 @@ const WhyChooseBespoke = () => {
           }}
           viewport={{ once: true }}
         >
-          <img src="/assets/containers.jpg" alt="image" draggable="false" className="hidden md:block rounded-xl shadow-2xl drop-shadow-2xl"/>
-          <img src="/assets/containers.jpg" alt="image" draggable="false" className="block md:hidden rounded-xl shadow-2xl drop-shadow-2xl"/>
+          <Image src="/assets/containers.jpg" alt="image" draggable="false" className="hidden md:block rounded-xl shadow-2xl drop-shadow-2xl" width={1920} height={1080}/>
+          <Image src="/assets/containers.jpg" alt="image" draggable="false" className="block md:hidden rounded-xl shadow-2xl drop-shadow-2xl" width={1920} height={1080}/>
         </motion.div>
         <motion.div
           className="flex flex-col justify-center"

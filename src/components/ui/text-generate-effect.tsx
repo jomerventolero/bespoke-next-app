@@ -1,5 +1,5 @@
 "use client"
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { motion, stagger, useAnimate } from "framer-motion";
 import { cn } from "@/utils/cn";
 import { useInView } from 'react-intersection-observer';
@@ -30,7 +30,7 @@ export const TextGenerateEffect = ({
         }
       );
     }
-  }, [inView, scope.current]);
+  }, [inView, scope.current, animate]);
 
   const renderWords = () => {
     return (

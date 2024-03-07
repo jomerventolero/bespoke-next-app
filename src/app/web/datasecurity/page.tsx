@@ -94,7 +94,7 @@ const DataSecurity = () => {
                     className="px-5 py-5 text-justify"
                 >
                     Wazuh, an enterprise-ready security solution, plays a pivotal role in enhancing security measures at Bespoke Enterprise Solutions Inc. Its open-source nature, combined with an array of features, enables our organization to detect and respond to data theft effectively.<br/><br/>
-                    Wazuh serves as a comprehensive tool that unifies SIEM (Security Information and Event Management) and XDR (Extended Detection and Response) protection, covering various workloads within our infrastructure.<br/><br/>
+                    Wazuh serves as a comprehensive tool that unifies SIEM &lsquo;Security Information and Event Management&rsquo; and XDR &lsquo;Extended Detection and Response&rsquo; protection, covering various workloads within our infrastructure.<br/><br/>
                     One of its core strengths lies in providing a centralized dashboard for threat detection and security monitoring. This dashboard seamlessly spans virtualized, on-premises, cloud-based, and containerized environments, allowing us to maintain a holistic view of our security landscape.<br/><br/>
                     Wazuh extends several capabilities that empower our organization to take proactive steps in averting, identifying, and addressing security threats. Below, we shed light on key features and functionalities of Wazuh that are instrumental in safeguarding your data against theft.
                 </motion.p>
@@ -110,7 +110,7 @@ const DataSecurity = () => {
                     viewport={{ once: true }}
                     className="font-poppins font-bold text-2xl pt-5 pb-5"
                 >
-                    File Integrity Monitoring (FIM) and Data Theft Detection
+                    File Integrity Monitoring &lsqou;FIM&rsquo; and Data Theft Detection
                 </motion.h1>
                 <div className="grid grid-cols-2 gap-8">
                     <motion.p
@@ -124,7 +124,7 @@ const DataSecurity = () => {
                         viewport={{ once: true }}
                         className="px-5 py-5 text-justify"
                     >
-                        Within the security framework of Wazuh, the File Integrity Monitoring (FIM) module plays a critical role in safeguarding data integrity. This module continually observes the files and directories on an endpoint, promptly raising alerts when it detects file creation, modification, or deletion activities.
+                        Within the security framework of Wazuh, the File Integrity Monitoring &lsqou;FIM&rsquo; module plays a critical role in safeguarding data integrity. This module continually observes the files and directories on an endpoint, promptly raising alerts when it detects file creation, modification, or deletion activities.
                         <br/><br/>
                         Wazuh's FIM module goes a step further by preserving cryptographic checksums and other file attributes, as well as monitoring changes to Windows registry keys. This meticulous record-keeping allows us to identify any alterations to these values with precision. Monitoring takes place at regular intervals or even in near real-time, ensuring swift response to any unauthorized changes.
                         <br/><br/>
@@ -186,7 +186,7 @@ const DataSecurity = () => {
                     >
                         The core function of vulnerability detection is to pinpoint security frailties within both the operating system and the applications residing on the monitored endpoints. Wazuh employs its dedicated Vulnerability Detector module to carry out this crucial task.
                         <br/><br/>
-                        To enable this process, Wazuh creates a comprehensive vulnerability database, drawing information from widely accessible Common Vulnerabilities and Exposures (CVE) repositories. This database acts as a central resource for cross-referencing with the inventory data of applications collected from the monitored endpoints. Through this meticulous comparison, the Vulnerability Detector module can successfully flag any software that exhibits vulnerabilities.
+                        To enable this process, Wazuh creates a comprehensive vulnerability database, drawing information from widely accessible Common Vulnerabilities and Exposures &lsqou;CVE&rsquo; repositories. This database acts as a central resource for cross-referencing with the inventory data of applications collected from the monitored endpoints. Through this meticulous comparison, the Vulnerability Detector module can successfully flag any software that exhibits vulnerabilities.
                         <br/><br/>
                         By doing so, the Wazuh Vulnerability Detector module unveils unpatched vulnerabilities on the endpoints, which could potentially serve as entry points for malicious actors seeking to compromise data security. This proactive approach aids in safeguarding against data theft and other security threats.
                     </motion.p>
@@ -203,7 +203,7 @@ const DataSecurity = () => {
                     viewport={{ once: true }}
                     className="font-poppins font-bold text-2xl pt-5 pb-5"
                 >
-                    Security Configuration Assessment <span className="text-blue-700">(SCA)</span>
+                    Security Configuration Assessment <span className="text-blue-700">&lsqou;SCA&rsqou;</span>
                 </motion.h1>
                 <div className="grid grid-cols-2">
                     <motion.p
@@ -217,9 +217,9 @@ const DataSecurity = () => {
                         viewport={{ once: true }}
                         className="px-5 py-5 text-justify"
                     >
-                        Security Configuration Assessment (SCA) is an essential process that involves the thorough examination of monitored endpoints to identify misconfigurations that could potentially render these endpoints vulnerable to cyber attacks.
+                        Security Configuration Assessment &lsqou;SCA&rsqou; is an essential process that involves the thorough examination of monitored endpoints to identify misconfigurations that could potentially render these endpoints vulnerable to cyber attacks.
                         <br/><br/>
-                        SCA, as facilitated by Wazuh, continuously enhances the configuration posture of systems by adhering to recognized standards such as the Center for Internet Security (CIS), NIST, PCI-DSS, HIPAA, and various others.
+                        SCA, as facilitated by Wazuh, continuously enhances the configuration posture of systems by adhering to recognized standards such as the Center for Internet Security &lsqou;CIS&rsqou;, NIST, PCI-DSS, HIPAA, and various others.
                         <br/><br/>
                         Wazuh's SCA module conducts routine scans on monitored endpoints with the primary goal of unveiling potential exposures of sensitive data or configuration inaccuracies. These scans meticulously evaluate the configurations of both the endpoints and the applications running on them. Policy files, containing rules designed for testing against the actual configurations, guide this assessment process.
                         <br/><br/>
@@ -269,7 +269,7 @@ const DataSecurity = () => {
                     <br/><br/>
                     One area of particular concern is the misuse of USB drives by disgruntled employees or malicious actors to pilfer sensitive data from an organization's endpoints. Wazuh addresses this threat by actively collecting and scrutinizing event logs generated when a USB drive is inserted into an endpoint.
                     <br/><br/>
-                    In a recent blog post, Wazuh showcases its capabilities in detecting both authorized and unauthorized USB drives through the utilization of a constant database (CDB) list containing authorized USB drives. This exemplifies how Wazuh's log data analysis aids in bolstering security measures and guarding against data theft and other potential risks.
+                    In a recent blog post, Wazuh showcases its capabilities in detecting both authorized and unauthorized USB drives through the utilization of a constant database &lsqou;CDB&rsqou; list containing authorized USB drives. This exemplifies how Wazuh's log data analysis aids in bolstering security measures and guarding against data theft and other potential risks.
                 </motion.p>
                 <motion.div
                     initial={{ opacity: 0 }}

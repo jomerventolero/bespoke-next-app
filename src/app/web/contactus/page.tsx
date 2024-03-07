@@ -70,7 +70,7 @@ const ContactUs = () => {
                 </div>
                 <div className="flex flex-row justify-start pt-8">
                     <Image src="/assets/Icons/23.png" alt="location" className="w-[20%] h-[40%] aspect-square" width={80} height={50}/>
-                    <span className="text-white font-semibold self-center pl-4 sm:text-lg text-xs">King's Court Building 1, Level 8, Chino Roces Ave, Makati, Metro Manila, Philippines.</span>
+                    <span className="text-white font-semibold self-center pl-4 sm:text-lg text-xs">King&#39;s Court Building 1, Level 8, Chino Roces Ave, Makati, Metro Manila, Philippines.</span>
                 </div>
                 <div className="flex flex-row gap-4 justify-start pt-[4rem] pb-[2rem]">
                     <Image src="/assets/fb_logo.png" alt="fblogo" className="w-[10%] " width={50} height={50}/>
@@ -98,9 +98,9 @@ const ContactUs = () => {
                     </div>
                     <input className="border-b-2 border-slate-300 p-4 my-1 outline-none" placeholder="Company Name*" type="text" name="companyname" id="companyname" required/>
                     <input className="border-b-2 border-slate-300 p-4 my-1 outline-none" placeholder="Tell us about your requirement" type="text" name="requirement" id="requirement" required/>
-                    <ReCAPTCHA 
-                        sitekey="6LcR9J0kAAAAACY17CRtBE0KQdrQN8TqJFTBSnT1"
-                        onChange={ handleVerify }
+                    <ReCAPTCHA
+                        sitekey={process.env.ReCAPTCHA ?? ''}
+                        onChange={ () => {handleVerify}}   
                         className="py-4"
                     />
                     <div className="flex flex-row pt-4 mb-4">

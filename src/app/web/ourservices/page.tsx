@@ -45,7 +45,7 @@ const OurServices = () => {
                 <h1 className={`  text-brandBlue font-semibold pb-6`}>Document Indexing</h1>
                 <p className={`text-justify pb-6 leading-relaxed`}>When it comes to the freight forwarding industry, organized data is imperative to get work done in a timely manner. Indexing documents is second nature to BPO companies, which means that you will quickly have all your documents properly stored on a database that is secure and easy to access.</p>
                 <h1 className={`  text-brandBlue font-semibold pb-6`}>Data Management</h1>
-                <p className={`text-justify pb-6 leading-relaxed`}>In addition to data entry, Bespoke can also manage your company’s data. One of the main aspects of how & why freight forwarding companies use BPO services is to effectively carry out data-related services. Data management involves executing all necessary data-related processes.</p>
+                <p className={`text-justify pb-6 leading-relaxed`}>In addition to data entry, Bespoke can also manage your company&#39;s data. One of the main aspects of how & why freight forwarding companies use BPO services is to effectively carry out data-related services. Data management involves executing all necessary data-related processes.</p>
                 <p className={`text-justify pb-6 leading-relaxed`}>Aside from this list, a freight forwarding BPO company can take on any additional tasks or jobs that you might need help with. If you have a particular project that needs to be expertly handled, Bespoke company can ensure that it is properly completed from start to finish.</p>
             </div>
         </div>

@@ -114,7 +114,7 @@ const WhyDoFreight = () => {
                 </p>
                 <h1 className={`${styles.textResH4} text-brandBlue font-semibold pt-8`}>Protect Your Data</h1>
                 <p className={`${styles.textResH3}`}>
-                    While it might seem counter intuitive that giving your data to a third-party company increases security, it is one of the aspects of how & why freight forwarding companies use BPO services. A BPO company’s access to top-of-the-line systems provides organizations with significant data security and protection.
+                    While it might seem counter intuitive that giving your data to a third-party company increases security, it is one of the aspects of how & why freight forwarding companies use BPO services. A BPO company&#39;s access to top-of-the-line systems provides organizations with significant data security and protection.
                 </p>
             </div>
             <Image src="/assets/aboutus/9.png" alt="airplane" draggable="false" width={580} height={1080}/>
@@ -151,7 +151,7 @@ const WhyDoFreight = () => {
                 </p>
                 <h1 className={`${styles.textResH4} text-brandBlue font-semibold pt-8`}>Protect Your Data</h1>
                 <p className={`${styles.textResH3}`}>
-                    While it might seem counter intuitive that giving your data to a third-party company increases security, it is one of the aspects of how & why freight forwarding companies use BPO services. A BPO company’s access to top-of-the-line systems provides organizations with significant data security and protection.
+                    While it might seem counter intuitive that giving your data to a third-party company increases security, it is one of the aspects of how & why freight forwarding companies use BPO services. A BPO company&#39;s access to top-of-the-line systems provides organizations with significant data security and protection.
                 </p>
             </div>
         </div>

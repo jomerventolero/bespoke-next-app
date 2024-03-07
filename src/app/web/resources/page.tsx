@@ -2,6 +2,7 @@
 import { motion } from 'framer-motion'
 import { Button } from '@/components/ui/moving-border'
 import Link from 'next/link'
+import Image from 'next/image'
 
 
 const Resources = () => {
@@ -17,7 +18,7 @@ const Resources = () => {
           }}
           >
          <figure className="flex-row bg-gradient-to-t from-indigo-400 to-blue-300 mx-[10%] z-60 rounded-lg sm:flex hidden">
-            <img src="/assets/resources1.png" alt="resources1" className="w-3/4 mx-auto rounded-l-lg"/>
+            <Image src="/assets/resources1.png" alt="resources1" className="w-3/4 mx-auto rounded-l-lg" width={1080} height={1080}/>
             <div className="xs:flex row">
               <blockquote className={`px-[10%] py-5`}>
                 <h1 className={`  font-poppins font-semibold text-brandBlack pb-6`}>
@@ -40,7 +41,7 @@ const Resources = () => {
           </figure>
 
           <figure className="flex-row bg-gradient-to-t from-indigo-400 to-blue-300 mx-[10%] rounded-lg h-full sm:flex hidden">
-            <img src="/assets/resources2.png" alt="resources2" className="w-3/4 mx-auto rounded-l-lg"/>
+            <Image src="/assets/resources2.png" alt="resources2" className="w-3/4 mx-auto rounded-l-lg" width={1080} height={1080}/>
             <div className="">
               <blockquote className={`px-[10%] py-5`}>
                 <h1 className={`  font-poppins font-semibold text-brandBlack pb-6`}>
@@ -74,7 +75,7 @@ const Resources = () => {
           }}
           >
          <figure className="flex-row bg-gradient-to-t from-indigo-400 to-blue-300 mx-[10%] z-60 rounded-lg h-full mb-8">
-            <img src="/assets/resources1.png" alt="resources1" className="w-1/2 h-fit mx-auto pt-1 rounded-lg"/>
+            <Image src="/assets/resources1.png" alt="resources1" className="w-1/2 h-fit mx-auto pt-1 rounded-lg" width={1080} height={1080}/>
             <div className="xs:flex row">
               <blockquote className={`px-[10%] pt-[5%]`}>
                 <h1 className={`  font-poppins font-semibold text-brandBlack pb-6 text-center`}>
@@ -96,7 +97,7 @@ const Resources = () => {
           </figure>
 
           <figure className="flex-row bg-gradient-to-t from-indigo-400 to-blue-300 mx-[10%] rounded-lg h-full">
-            <img src="/assets/resources2.png" alt="resources2" className="w-1/2 h-fit mx-auto pt-1 rounded-lg"/>
+            <Image src="/assets/resources2.png" alt="resources2" className="w-1/2 h-fit mx-auto pt-1 rounded-lg" width={1080} height={1080}/>
             <div className="">
               <blockquote className={`px-[10%] pt-[5%]`}>
                 <h1 className={`  font-poppins font-semibold text-brandBlack pb-6 text-center`}>
