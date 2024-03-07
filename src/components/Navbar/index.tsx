@@ -8,6 +8,7 @@ import { links } from '@/constants/navlinks'
 import { motion } from 'framer-motion'
 import { IoIosCloseCircleOutline, IoMdMenu } from "react-icons/io";
 import { TypewriterEffect } from "../ui/typewriter-effect";
+import { Button } from "../ui/moving-border";
 
 
 const Navbar = () => {
@@ -59,9 +60,18 @@ const Navbar = () => {
         </Link>
       </div>
 
-      <div className="flex">
-            <IoMdMenu size={30} className={`mr-4 self-center ${toggle ? 'hidden' : 'block'} cursor-pointer`} onClick={() => setToggle(!toggle)}/>
+    <div className="flex flex-row gap-4">
+
+      <div className="self-center font-semibold hover:text-brandBlue duration-300 transition-all ease-in-out">
+        <Link href="/web/contactus" target="_blank">
+          Contact Us
+        </Link>
       </div>
+
+      <div className="flex">
+            <IoMdMenu size={30} className={`mr-4 self-center ${toggle ? 'hidden' : 'block'} cursor-pointer hover:text-brandBlue duration-300 transition-all ease-in-out`} onClick={() => setToggle(!toggle)}/>
+      </div>
+    </div>
       <motion.div 
           initial={{ opacity: 0, x: 100}}
           whileInView={{ opacity: 1, x: 0 }}
@@ -97,10 +107,10 @@ const Navbar = () => {
               <Link href="https://www.linkedin.com/in/bespoke-enterprise-solutions-0089882a0/" target='_blank' className="self-center">
                   <Image src="/assets/linkedin_logo.png" alt="logo" className="w-12" width={256} height={256} />
               </Link>
-          </div>
+            </div>
           </motion.div>
       </motion.div>
-      
+    
 
     </div>
   )
