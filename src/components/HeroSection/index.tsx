@@ -34,7 +34,7 @@ const HeroSection = () => {
           </Link>
         </Button>
       </div>
-      <Image className="absolute sm:right-20 top-[70px] sm:top-32 w-screen sm:w-[55%] sm:h-[75%] z-10 parallax sm:rounded-xl" src="/assets/herobg2.png" width={1200} height={800} alt="office" data-speed="0.3"/>
+      <Image className="absolute sm:right-20 top-[70px] sm:top-32 w-screen sm:w-[55%] sm:h-[75%] z-10 parallax sm:rounded-xl" src="/assets/herobg.jpg" width={1200} height={800} alt="office" data-speed="0.3"/>
     </div>
   )
 }
