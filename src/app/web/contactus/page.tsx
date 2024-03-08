@@ -99,7 +99,7 @@ const ContactUs = () => {
                     <input className="border-b-2 border-slate-300 p-4 my-1 outline-none" placeholder="Company Name*" type="text" name="companyname" id="companyname" required/>
                     <input className="border-b-2 border-slate-300 p-4 my-1 outline-none" placeholder="Tell us about your requirement" type="text" name="requirement" id="requirement" required/>
                     <ReCAPTCHA
-                        sitekey={process.env.NEXT_PUBLIC_RECAPTCHA ?? ''}
+                        sitekey={process.env.NEXT_PUBLIC_RECAPTCHA ?? '6LcR9J0kAAAAACY17CRtBE0KQdrQN8TqJFTBSnT1'}
                         onChange={ () => {handleVerify}}   
                         className="py-4"
                     />
@@ -134,7 +134,7 @@ const ContactUs = () => {
                     <input className="rounded-lg border-b-2 my-2 border-slate-300 p-2 outline-none transition-all ease-in-out duration-300 hover:border-brandBlue" placeholder="Company Name*" type="text" name="companyname" id="companyname" required/>
                     <input className="rounded-lg border-b-2 my-2 border-slate-300 p-2 outline-none transition-all ease-in-out duration-300 hover:border-brandBlue" placeholder="Tell us about your requirement" type="text" name="requirement" id="requirement" required/>
                     <ReCAPTCHA 
-                        sitekey={process.env.NEXT_PUBLIC_RECAPTCHA ?? ''}
+                        sitekey={process.env.NEXT_PUBLIC_RECAPTCHA ?? '6LcR9J0kAAAAACY17CRtBE0KQdrQN8TqJFTBSnT1'}
                         onChange={ () => {handleVerify}}  
                         className="py-4"
                     />
