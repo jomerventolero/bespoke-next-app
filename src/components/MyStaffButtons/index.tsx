@@ -35,14 +35,14 @@ const MyStaffButtons = () => {
             <FaPeopleGroup className="text-brandBlue self-center" size="4rem"/>
         </div>
         <div className="flex flex-row justify-around gap-8"  >
-            <MeteorCard title="My Bespoke Staff Marketing" image="/assets/Icons/marketing.png" url="/contactus" durationP={0.5} delayP={0.2}/>
-            <MeteorCard title="My Bespoke Staff Accounting" image="/assets/Icons/accounting.png" url="/contactus" durationP={0.5} delayP={0.4}/>
-            <MeteorCard title="My Bespoke Staff Customer Support" image="/assets/Icons/customersupport.png" url="/contactus" durationP={0.5} delayP={0.6}/>
+            <MeteorCard title="My Bespoke Staff Marketing" image="/assets/Icons/marketing.png" url="/web/contactus" durationP={0.5} delayP={0.2}/>
+            <MeteorCard title="My Bespoke Staff Accounting" image="/assets/Icons/accounting.png" url="/web/contactus" durationP={0.5} delayP={0.4}/>
+            <MeteorCard title="My Bespoke Staff Customer Support" image="/assets/Icons/customersupport.png" url="/web/contactus" durationP={0.5} delayP={0.6}/>
         </div>
         <div className="flex flex-row justify-around gap-8"  >
-            <MeteorCard title="My Bespoke Staff Data Entry" image="/assets/Icons/dataentry.png" url="/contactus" durationP={0.5} delayP={0.8}/>
-            <MeteorCard title="My Bespoke Staff Front/Back Office" image="/assets/Icons/frontbackoffice.png" url="/contactus" durationP={0.5} delayP={1}/>
-            <MeteorCard title="My Bespoke Staff IT Support" image="/assets/Icons/it-4.png" url="/itstaff" durationP={0.5} delayP={1.2}/>
+            <MeteorCard title="My Bespoke Staff Data Entry" image="/assets/Icons/dataentry.png" url="/web/contactus" durationP={0.5} delayP={0.8}/>
+            <MeteorCard title="My Bespoke Staff Front/Back Office" image="/assets/Icons/frontbackoffice.png" url="/web/contactus" durationP={0.5} delayP={1}/>
+            <MeteorCard title="My Bespoke Staff IT Support" image="/assets/Icons/it-4.png" url="/web/contactus" durationP={0.5} delayP={1.2}/>
         </div>
     </div>
   )
