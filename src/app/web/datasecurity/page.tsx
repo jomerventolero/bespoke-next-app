@@ -124,7 +124,7 @@ const DataSecurity = () => {
                         viewport={{ once: true }}
                         className="px-5 py-5 text-justify"
                     >
-                        Within the security framework of Wazuh, the File Integrity Monitoring (FIM&rsquo; module plays a critical role in safeguarding data integrity. This module continually observes the files and directories on an endpoint, promptly raising alerts when it detects file creation, modification, or deletion activities.
+                        Within the security framework of Wazuh, the File Integrity Monitoring (FIM) module plays a critical role in safeguarding data integrity. This module continually observes the files and directories on an endpoint, promptly raising alerts when it detects file creation, modification, or deletion activities.
                         <br/><br/>
                         Wazuh's FIM module goes a step further by preserving cryptographic checksums and other file attributes, as well as monitoring changes to Windows registry keys. This meticulous record-keeping allows us to identify any alterations to these values with precision. Monitoring takes place at regular intervals or even in near real-time, ensuring swift response to any unauthorized changes.
                         <br/><br/>
