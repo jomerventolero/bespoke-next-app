@@ -71,7 +71,7 @@ const HowitWorks = () => {
                 <Image src="/assets/4.png" alt="three" className="w-[80%] h-auto" draggable="false" width={600} height={1080}/>
             </motion.div> 
         </motion.div>
-        <motion.div className="md:hidden flex flex-col px-[20%] pb-4 justify-center items-center overflow-hidden">
+        <motion.div className="md:hidden flex flex-col pt-20 px-[20%] pb-4 justify-center items-center overflow-hidden">
             <motion.img src="/assets/1.png" alt="one" className="w-[80%] h-[20%]" 
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}

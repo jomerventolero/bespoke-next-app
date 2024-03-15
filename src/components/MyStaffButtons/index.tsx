@@ -3,7 +3,6 @@ import React from 'react'
 import MeteorCard from '../MeteorCard'
 
 import { FaPeopleGroup } from 'react-icons/fa6'
-import { motion } from 'framer-motion'
 
 const MyStaffButtons = () => {
 

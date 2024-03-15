@@ -100,7 +100,7 @@ const ContactUs = () => {
                     <input className="border-b-2 border-slate-300 p-4 my-1 outline-none" placeholder="Tell us about your requirement" type="text" name="requirement" id="requirement" required/>
                     <ReCAPTCHA
                         sitekey={process.env.NEXT_PUBLIC_RECAPTCHA ?? '6LcR9J0kAAAAACY17CRtBE0KQdrQN8TqJFTBSnT1'}
-                        onChange={ () => {handleVerify}}   
+                        onChange={ () => {handleVerify()}}   
                         className="py-4"
                     />
                     <div className="flex flex-row pt-4 mb-4">
@@ -135,10 +135,10 @@ const ContactUs = () => {
                     <input className="rounded-lg border-b-2 my-2 border-slate-300 p-2 outline-none transition-all ease-in-out duration-300 hover:border-brandBlue" placeholder="Tell us about your requirement" type="text" name="requirement" id="requirement" required/>
                     <ReCAPTCHA 
                         sitekey={process.env.NEXT_PUBLIC_RECAPTCHA ?? '6LcR9J0kAAAAACY17CRtBE0KQdrQN8TqJFTBSnT1'}
-                        onChange={ () => {handleVerify}}  
+                        onChange={ () => {handleVerify()}}  
                         className="py-4"
                     />
-                    <div className="flex flex-row pt-4 ">
+                    <div className="flex flex-row pt-4">
                         <button type="submit" className={`shadow-2xl text-[75%] px-[4rem] py-[1rem] rounded-[20px] font-poppins font-semibold 
                         ${ isVerified ? "text-white bg-brandBlue" : "text-brandBlack bg-transparent" }`} disabled={!isVerified}>
                             Submit
