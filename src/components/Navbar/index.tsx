@@ -62,7 +62,7 @@ const Navbar = () => {
     >
 
       <div>
-        <h6 className="hidden sm:block pb-20 absolute top-[2%] sm:left-[4%] left-[6%] lg:text-[15px] text-brandBlack font-semibold font-poppins md:text-12px]">Bespoke Enterprise Solutions Inc.</h6>
+        <h6 className="hidden sm:block pb-20 absolute top-[2%] sm:left-[4%] left-[6%] lg:text-[15px] text-brandBlack font-semibold font-poppins md:text-[12px]">Bespoke Enterprise Solutions Inc.</h6>
         <Link href="/" className="self-center">
           <Image src="/assets/logo-t.png" alt="logo" width={100} height={100} className="self-center p-2 w-14 sm:w-16"/>
         </Link>

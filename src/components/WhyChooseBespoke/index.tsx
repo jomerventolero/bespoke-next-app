@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 const WhyChooseBespoke = () => {
   return (
-    <div className="flex flex-col gap-8 px-2 sm:px-40 py-5 sm:py-10 bg-grid-slate-300 sm:bg-dot-slate-400 bg-white z-40">
+    <div className="flex flex-col gap-8 px-2 sm:px-10 lg:px-40 py-5 sm:py-10 bg-grid-slate-300 sm:bg-dot-slate-400 bg-white z-40">
       
       <div className={`flex flex-row justify-center bg-gradient-to-b from-violet-500 to-indigo-400 font-poppins font-semibold py-[30px] gap-4 my-2 rounded-xl`}>
         <span className={`text-xl text-white`}>WHY CHOOSE</span>
