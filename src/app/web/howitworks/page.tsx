@@ -7,7 +7,7 @@ import Image from 'next/image'
 const HowitWorks = () => {
   return (
     <div id="howitworks">
-        <motion.div className="sm:flex flex-row hidden justify-between bg-gradient-to-t from-blue-200 to-blue-400 mt-20 mx-40 text-xl font-semibold"
+        <motion.div className="sm:flex flex-row gap-10 hidden justify-between bg-gradient-to-t from-blue-200 to-blue-400 mt-20 mx-10 lg:mx-40 text-xl font-semibold"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{
@@ -16,12 +16,12 @@ const HowitWorks = () => {
             ease: [0, 0.71, 0.2, 1.01]
             }}  
             >
-              <span className="self-center w-1/2 px-8">
+              <span className="self-center w-1/2 px-8 text-brandBlack my-2 md:text-sm">
                 Outsource to the Philippines and create a dedicated team, without the worry about Office Space, IT, Recruitment, Payroll, and more.
               </span>
               <Image src="/assets/howitworks.png" alt="howitworks" className="w-1/4 justify-center self-center" width={1080} height={600}/>
         </motion.div>
-        <motion.div className="lg:flex hidden flex-row px-40 py-8 justify-center items-center">
+        <motion.div className="lg:flex hidden flex-row px-10 lg:px-40 py-8 justify-center items-center">
             <motion.div
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
@@ -71,8 +71,8 @@ const HowitWorks = () => {
                 <Image src="/assets/4.png" alt="three" className="w-[80%] h-auto" draggable="false" width={600} height={1080}/>
             </motion.div> 
         </motion.div>
-        <motion.div className="md:hidden flex flex-col pt-20 px-[20%] pb-4 justify-center items-center overflow-hidden">
-            <motion.img src="/assets/1.png" alt="one" className="w-[80%] h-[20%]" 
+        <motion.div className="lg:hidden grid grid-cols-2 gap-4 pt-20 px-[10%] pb-4 justify-center items-center overflow-hidden">
+            <motion.img src="/assets/1.png" alt="one" className="w-full h-full" 
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{
@@ -82,7 +82,7 @@ const HowitWorks = () => {
               }}  
               draggable="false"
             />
-            <motion.img src="/assets/2.png" alt="two" className="w-[80%] h-[20%]"
+            <motion.img src="/assets/2.png" alt="two" className="w-full h-full"
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{
@@ -92,7 +92,7 @@ const HowitWorks = () => {
               }}  
               draggable="false"
             />
-            <motion.img src="/assets/3.png" alt="three" className="w-[80%] h-[20%]"
+            <motion.img src="/assets/3.png" alt="three" className="w-full h-full"
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{
@@ -102,7 +102,7 @@ const HowitWorks = () => {
               }}  
               draggable="false"
             />
-            <motion.img src="/assets/4.png" alt="four" className="w-[80%] h-[20%]"
+            <motion.img src="/assets/4.png" alt="four" className="w-full h-full"
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{
@@ -113,7 +113,7 @@ const HowitWorks = () => {
               draggable="false"
             />
         </motion.div>
-        <div className="flex flex-col  overflow-hidden px-[15%] pb-4">
+        <div className="flex flex-col  overflow-hidden px-[15%] py-4">
           <motion.div className="w-full h-full px-8 justify-center bg-gradient-to-t from-blue-300 to-blue-200"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

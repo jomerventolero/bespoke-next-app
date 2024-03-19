@@ -6,7 +6,7 @@ import Image from 'next/image'
 const DataSecurity = () => {
   return (
     <>
-        <div className="flex flex-col justify-center items-center mt-40 overflow-x-hidden px-40 ">
+        <div className="flex flex-col justify-center items-center mt-40 overflow-x-hidden lg:px-40 px-10">
             <div className="grid grid-cols-2 place-self-center mx-40">
                 <motion.h1 
                     initial={{ opacity: 0}}
@@ -27,7 +27,7 @@ const DataSecurity = () => {
                         delay: 0.5
                     }}
                     viewport={{ once: true }}
-                    className="font-poppins font-medium"
+                    className="font-poppins font-medium md:hidden"
                 >
                     Detecting Data Theft with Wazuh
                 </motion.div>
@@ -53,7 +53,7 @@ const DataSecurity = () => {
                             delay: 0.5
                         }}
                         viewport={{ once: true }}
-                        className="px-5 pb-5 text-justify">
+                        className="px-5 pb-5 text-justify md:hidden">
                         Data theft involves the unauthorized acquisition of data residing within business databases, endpoints, and servers. This pilfered information encompasses items such as credentials, credit card details, personally identifiable information, medical records, software code, and proprietary technologies. Data theft is a peril that can manifest both within and beyond an organization's boundaries.
                         Malignant actors may purloin data from either organizations or individuals with the intention of selling it to other malicious parties. Data theft poses a significant threat to numerous entities since it can lead to issues like identity theft, harm to reputation, and financial setbacks.
                     </motion.p>
