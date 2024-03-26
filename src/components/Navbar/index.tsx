@@ -8,7 +8,6 @@ import { links } from '@/constants/navlinks'
 import { motion } from 'framer-motion'
 import { IoIosCloseCircleOutline, IoMdMenu } from "react-icons/io"
 import { TypewriterEffect } from "../ui/typewriter-effect"
-import { Button } from "../ui/moving-border"
 
 
 
