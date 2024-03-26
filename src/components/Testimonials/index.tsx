@@ -10,7 +10,7 @@ import { motion } from 'framer-motion'
 
 const Testimonials = () => {
   return (
-    <section id="security" className='sm:py-20 px-2 md:px-10 lg:px-40 z-40 bg-white bg-grid-slate-100 snap-proximity'>
+    <section id="security" className='sm:py-20 px-2 md:px-10 lg:px-40 z-40 bg-white snap-proximity'>
         <motion.div className="flex flex-row justify-center w-full h-full bg-gradient-to-b from-indigo-300 to-cyan-200 rounded-xl shadow-2xl drop-shadow-2xl snap-center"
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
