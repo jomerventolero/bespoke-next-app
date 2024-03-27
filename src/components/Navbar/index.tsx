@@ -89,9 +89,9 @@ const Navbar = () => {
             initial={{ opacity: 0, x: -100 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1.8, delay: 1 }}
-            className="flex flex-row gap-8 pt-4 absolute top-10 left-10">
+            className="flex flex-col sm:flex-row gap-8 pt-4 absolute top-10 left-10">
                 <Image src="/assets/logo-t.png" alt="logo" className="w-32" width={256} height={256}/>
-                <TypewriterEffect words={text} />
+                <TypewriterEffect words={text} className="hidden sm:block"/>
           </motion.div>
           
           <motion.div
